@@ -1,7 +1,9 @@
 # bitsight-code-base
 
 ``` java
-for(int i = 0; i<-1; i++){
- useUpMoreMemory();
+void problematicFunction(){
+ for(int i = 0; i<-1; i++){
+  useUpMoreMemory();
+ }
 }
 ```
